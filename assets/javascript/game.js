@@ -19,7 +19,7 @@ document.onkeyup = function(event) {
         guessLeft = 9;
         guessFar.length = 0;
     }
-// If user guesses incorrectly 
+// If user guesses incorrectly ›
     else if(guessLeft === 0) {
         totLosses++;
         alert("You did not guess the right letter. Try again!")
